@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="jquery.datetimepicker.css">
+	<style type="text/css">
+		#demo {
+			max-height: 100px;
+			overflow-y: scroll;
+		}
+	</style>
+</head>
+<body>
+	<h3>Height</h3>
+	<div id="demo">
+		<img src="http://images.all-free-download.com/images/graphiclarge/daisy_pollen_flower_220533.jpg">
+	</div>
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	var element = $("#demo");
+	var pipeLineHeight = element[0].scrollHeight;
+	console.log(pipeLineHeight);
+</script>
+</html>
